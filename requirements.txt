@@ -1,0 +1,10 @@
+# Dependencias de train.py (probado con Python 3.12.13).
+# Instalación: python -m pip install -r requirements.txt
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+mlflow==3.16.1
+# Formato de serialización que usa mlflow.sklearn.log_model para el modelo.
+skops==0.15.0
